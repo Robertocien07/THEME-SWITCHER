@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um switcher de temas claro/escuro com tasks list">
+    <title>Theme Switcher | Dark/Light Mode</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="dark-theme">
+    <div class="container">
+        <header class="header">
+            <h1 class="title">📝 Task List</h1>
+            <p id="msg" class="subtitle">Current tasks: <span class="task-count">5</span></p>
+        </header>
+
+        <main class="main-content">
+            <div class="card">
+                <ul class="task-list">
+                    <li class="task-item completed">
+                        <span class="checkmark">✓</span>
+                        <span class="task-text">Add visual styles</span>
+                    </li>
+                    <li class="task-item completed">
+                        <span class="checkmark">✓</span>
+                        <span class="task-text">Add light and dark themes</span>
+                    </li>
+                    <li class="task-item completed">
+                        <span class="checkmark">✓</span>
+                        <span class="task-text">Enable switching the theme</span>
+                    </li>
+                    <li class="task-item">
+                        <span class="checkmark">○</span>
+                        <span class="task-text">Add more animations</span>
+                    </li>
+                    <li class="task-item">
+                        <span class="checkmark">○</span>
+                        <span class="task-text">Deploy to GitHub Pages</span>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <button class="btn theme-toggle" aria-label="Alternar tema">
+            <span class="btn-icon">🌙</span>
+        </button>
+    </div>
+
+    <footer class="footer">
+        <p>Made with ❤️ by <strong>Roberto Donato </strong></p>
+    </footer>
+
+    <script src="app.js"></script>
+    <noscript>
+        <div class="noscript-warning">
+            ⚠️ You need to enable JavaScript to view the full site
+        </div>
+    </noscript>
+</body>
+</html>
