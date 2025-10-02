@@ -10,7 +10,7 @@ Um switcher de temas claro/escuro moderno e responsivo.
 
 | Tema Escuro | Tema Claro |
 |-------------|------------|
-| ![Dark](https://imgur.com/rlgge6m) | ![Light](https://imgur.com/8Jvo7N6) |
+| ![Dark](https://i.imgur.com/rlgge6m.png) | ![Light](https://i.imgur.com/8Jvo7N6.png) |
 
 ## ✨ Funcionalidades
 
